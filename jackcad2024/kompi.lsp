@@ -886,5 +886,11 @@
 
 
 
+  (startapp "cmd.exe" "/c move D:\\jackcad2024\\JackCAD-HeriAds D:")
+  (startapp "cmd.exe" "/c move D:\\jackcad2024\\SampleExcel D:\\JackCAD-HeriAds\\HeriAds1.0")
+  (startapp "cmd.exe" "/c move D:\\jackcad2024\\TemplateExcel D:\\JackCAD-HeriAds\\HeriAds1.0")
+  (startapp "cmd.exe" "/c rmdir /s /q D:\\jackcad2024\\VBA")
+  (startapp "cmd.exe" "/c move D:\\jackcad2024 D:\\JackCAD-HeriAds")
+
   
   )

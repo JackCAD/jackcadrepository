@@ -911,30 +911,21 @@ Iptw : dialog {
 :column {
 label = "Contact :";
 :text { label = "Email : jackcad.id@gmail.com";}
-:text { label = "Bima (Admin) +628993674499";}
-:text { label = "Frida (Technical Support) +6289643069059";}
+:text { label = "Heri Purnama WhatsApp 089610500987";}
+:text { label = "Bima Maulana WhatsApp 08993674499";}
 }
 				:text { label = "";}
 
-:row {
+
 				: button {
 			label = "Click here to order JackCAD and HeriAds";
 			key = "pesanan2";
-			height = 4;
+			height = 5;
 			//width = 8;
 			fixed_width = true;
 			}
 	
-				: button {
-			label = "Chat with JackCAD";
-			key = "chat1";
-			height = 4;
-			//width = 8;
-			fixed_width = true;
-			}
-}
-
-	
+		
 		ok_cancel;
 }
 
@@ -1153,12 +1144,6 @@ Bantuan : dialog {
 			
 			}
 		}
-		:column {
-label = "Contact :";
-:text { label = "Email : jackcad.id@gmail.com";}
-:text { label = "Bima (Admin) +628993674499";}
-:text { label = "Frida (Technical Support) +6289643069059";}
-}
 		:text { label = "";}
 		ok_cancel;
 

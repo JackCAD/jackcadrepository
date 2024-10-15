@@ -1,0 +1,792 @@
+<?xml version="1.0"?>
+<!--
+Warning! Do not edit the contents of this file.
+If you attempt to edit this file using an XML editor, you could lose customization and migration functionality.
+If you need to change information in the customization file, use the Customize User Interface dialog box in the product.
+To access the Customize User Interface dialog box, click the Tools menu > Customize > Interface, or enter CUI on the command line. 
+-->
+<CustSection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <FileVersion MajorVersion="0" MinorVersion="3" IncrementalVersion="2" UserVersion="1" />
+  <Header>
+    <CommonConfiguration>
+      <CommonItems>
+        <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+      </CommonItems>
+    </CommonConfiguration>
+    <WorkspaceRoot>
+      <WorkspaceConfigRoot />
+    </WorkspaceRoot>
+  </Header>
+  <MenuGroup Name="JACKCAD">
+    <MacroGroup Name="JackCadMacros">
+      <MenuMacro UID="ID_Proyek">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0002">Project</Name>
+          <Command>^C^C(load (strcat "C:/jackcad2024/Proyek")) Proyek  </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\project2.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\project2.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_poligon">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0007">Run Map Data</Name>
+          <Command>^C^C(load (strcat "C:/jackcad2024/Topo/runtopo")) runtopo  </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\map3.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\map3.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_xyz">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0015">XYZ Data</Name>
+          <Command>^C^C(load (strcat "c:/jackcad2022/topo/xyz")) xyz  </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\XYZ Data.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\XYZ Data.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_kopi">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0017">Title Block</Name>
+          <Command>^C^C(load (strcat "c:/jackcad2022/topo/kopi")) kopi  </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\titleblock.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\titleblock.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_kopilay">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0019">Layout Title Block</Name>
+          <Command>^C^C(load (strcat "c:/jackcad2022/topo/kopilay")) kopilay  </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\layouttitle.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\layouttitle.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_trase">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0028">Alignment</Name>
+          <Command>^C^C(load (strcat "c:/jackcad2024/long/trase")) trase  </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\alignment2.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\alignment2.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_ExLong">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0030">Existing Long section</Name>
+          <Command>^C^C(setq exis 1 stepm 0)(load (strcat "c:/jackcad2022/long/irrpro")) irrpro  </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\long existing2.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\long existing2.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_ExCross">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0034">Existing Cross Section</Name>
+          <Command>^C^C(setq exis 1 stepm 0)(load (strcat "c:/jackcad2022/cross/crpe")) crpe  </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\existingcros2.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\existingcros2.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_DeCross">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0036">Design Cross Section</Name>
+          <Command>^C^C(setq exis 0 stepm 0)(load (strcat "c:/jackcad2022/cross/crpe")) crpe  </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\designcross2.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\designcross2.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Steplong">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0039">Long Step Methode</Name>
+          <Command>^C^C(setq stepm 1 exis 0)(load (strcat "c:/jackcad2022/long/irrpro")) irrpro  </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\longstep2.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\longstep2.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_StepCross">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0041">Cross Step Methode</Name>
+          <Command>^C^C(setq stepm 1 exis 0)(load (strcat "c:/jackcad2022/cross/crpe")) crpe  </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\crosstep2.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\crosstep2.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_sadap">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0044">Structure</Name>
+          <Command>^C^C(load (strcat "c:/jackcad2024/runallstruct")) runallstruct  </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\water.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\water.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_standar">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0068">Standard Drawing</Name>
+          <Command>^C^C(load (strcat "c:/jackcad2022/standar/standar")) standar  </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\standard2.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\standard2.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Seting">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0070">General Setting</Name>
+          <Command>^C^C(load (strcat "c:/jackcad2024/topo/t-set")) t-set  </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\gear.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\gear.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Lacros">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0073">Cross Setting</Name>
+          <Command>^C^C(load (strcat "c:/jackcad2022/cross/o-cros")) o-cros  </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\setiing cross2.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\setiing cross2.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Lalong">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0075">Long Setting</Name>
+          <Command>^C^C(load (strcat "c:/jackcad2022/long/o-long")) o-long  </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\setting long2 (2).bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\setting long2 (2).bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Cetak">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0083">Print</Name>
+          <Command>^C^C(load (strcat "C:/jackcad2022/lsp-lain/lain")) cetak  </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\print.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\print.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0042">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0097">Grid</Name>
+          <Command>^C^C(load (strcat "c:/jackcad2022/topo/gridi")) gridi </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\grid.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\grid.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0044">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0105">Design Long Section</Name>
+          <Command>^C^C(setq exis 0 stepm 0)(load (strcat "c:/jackcad2022/long/irrpro")) irrpro  </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\design long2.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\design long2.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0048">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0129">Map Setting</Name>
+          <Command>^C^C(load (strcat "c:/jackcad2022/topo/o-sit")) o-sit </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\Map Setting2.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\Map Setting2.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_artan">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0136">Earth</Name>
+          <Command>^C^C(load (strcat "C:/jackcad2022/lsp-lain/lain")) tn  </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\earth.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\earth.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_gel">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0138">Change Elevation</Name>
+          <Command>^C^C(load (strcat "C:/jackcad2022/lsp-lain/lain")) gel </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\changeelev.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\changeelev.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_rt">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0140">Text Rotation</Name>
+          <Command>^C^C(load (strcat "C:/jackcad2022/lsp-lain/lain")) rt </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\textrotate.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\textrotate.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_azi">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0142">Azimuth</Name>
+          <Command>^C^C(load (strcat "C:/jackcad2022/lsp-lain/lain")) azi </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\azimuth.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\azimuth.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_mr">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0144">Earth Hatch</Name>
+          <Command>^C^C(load (strcat "C:/jackcad2022/lsp-lain/lain")) mr </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\hatch.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\hatch.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Fontde">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0155">Decrease Font</Name>
+          <Command>^C^C(load (strcat "C:/jackcad2024/subroutine/fontde")) fontde  </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\fondec.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\fondec.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Fontin">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0157">Increase Font</Name>
+          <Command>^C^C(load (strcat "C:/jackcad2024/subroutine/fontin")) Fontin </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\fontincrease.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\fontincrease.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0051">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0179">StructureOption</Name>
+          <Command>^C^C(load (strcat "c:/jackcad2022/bangunan/o-bangunan")) o-bangunan </Command>
+          <HelpString xlate="true" UID="XLS_0180">StuctureOption</HelpString>
+          <SmallImage Name="C:\jackcad2024\newicon\watersetting.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\watersetting.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0052">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0187">Petak Tersier</Name>
+          <Command>^C^C(load (strcat "C:/jackcad2022/pter")) pter  </Command>
+          <HelpString xlate="true" UID="XLS_0188">Petak Tersier</HelpString>
+          <SmallImage Name="C:\jackcad2024\newicon\pettersier.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\pettersier.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0053">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0190">Petak Kwarter</Name>
+          <Command>^C^C(load (strcat "C:/jackcad2022/pkwar")) pkwar  </Command>
+          <HelpString xlate="true" UID="XLS_0191">Petak Kwarter</HelpString>
+          <SmallImage Name="C:\jackcad2024\newicon\petkwarter.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\petkwarter.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0054">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0194">Cad to Excell</Name>
+          <Command>^C^C(load (strcat "c:/jackcad2022/topo/stoe")) stoe </Command>
+          <HelpString xlate="true" UID="XLS_0195">Cad to Excell</HelpString>
+          <SmallImage Name="C:\jackcad2024\newicon\AE2.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\AE2.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="MMU_0055">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0198">Lokasi Judul</Name>
+          <Command>^C^C(load (strcat "c:/jackcad2022/lsp-lain/lain")) lokasijudul </Command>
+          <HelpString xlate="true" UID="XLS_0199">Lokasi Judul</HelpString>
+          <SmallImage Name="C:\jackcad2024\newicon\TITLE.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\TITLE.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_Helpjc">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0200">HelpJackCAD</Name>
+          <Command>^C^C(load (strcat "C:/jackcad2024/lsp-lain/bantu")) bantu </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\help.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\help.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_L200">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0201">Activate</Name>
+          <Command>^C^C(load (strcat "C:/jackcad2024/activ")) activ </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\22. activate JackCAD.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\22. activate JackCAD.bmp" />
+        </Macro>
+      </MenuMacro>
+      <MenuMacro UID="ID_slp">
+        <Macro type="Any">
+          <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0205">WL Slope</Name>
+          <Command>^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) is </Command>
+          <SmallImage Name="C:\jackcad2024\newicon\canalslope.bmp" />
+          <LargeImage Name="C:\jackcad2024\newicon\canalslope.bmp" />
+        </Macro>
+      </MenuMacro>
+    </MacroGroup>
+    <MenuRoot>
+      <AcceleratorRoot />
+      <OverrideRoot />
+      <MouseButtonRoot />
+      <DigitizerButtonRoot />
+      <PopMenuRoot>
+        <PopMenu hasDiesel="false" UID="ID_Irr">
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Alias>POP1</Alias>
+          <Alias>jackcad2022</Alias>
+          <Name xlate="true" UID="XLS_0001">&amp;JACKCAD2024</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0001">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0003" xlate="true">&amp;Project</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Proyek" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0039">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0071" xlate="true">General S&amp;etting</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Seting" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0003">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuRef pUID="ID_Plan" UID="PMRU_0001">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0014">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuRef pUID="ID_Saluran" UID="PMRU_0002">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0038">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuRef pUID="ID_Lainnya" UID="PMRU_0005">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0081">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuRef pUID="PMU_0002" UID="PMRU_0007">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuRef>
+          <PopMenuItem IsSeparator="true" hasDiesel="false" UID="PMIU_0085">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuItem>
+          <PopMenuRef pUID="PMU_0003" UID="PMRU_0008">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          </PopMenuRef>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="ID_Plan">
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0006">Topographi</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0060">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0207" xlate="true">Run Map Data</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_poligon" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0061">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0208" xlate="true">Existing Long section</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_ExLong" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0062">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0209" xlate="true">Existing Cross Section</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_ExCross" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0058">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0197" xlate="true">Cad to Excell</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0054" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0008">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0016" xlate="true">&amp;XYZ Data</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_xyz" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="ID_Saluran">
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0027">Design</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0048">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0182" xlate="true">Design Long Section</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0044" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0019">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0037" xlate="true">Design Cross &amp;Section</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_DeCross" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0065">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0212" xlate="true">Long Step Methode</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Steplong" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0066">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0213" xlate="true">Cross Step Methode</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_StepCross" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0015">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0029" xlate="true">&amp;Alignment</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_trase" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0063">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0210" xlate="true">WL Slope</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_slp" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0067">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0214" xlate="true">Structure</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_sadap" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0037">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <NameRef UID="XLS_0069" xlate="true">S&amp;tandard Drawing</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_standar" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="ID_Lainnya">
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0072">Setting</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0070">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0217" xlate="true">Map Setting</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0048" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0071">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0218" xlate="true">Long Setting</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Lalong" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0069">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0216" xlate="true">Cross Setting</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Lacros" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0068">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0215" xlate="true">Lokasi Judul</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0055" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="PMU_0002">
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0186">&amp;Tools</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0072">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0219" xlate="true">Azimuth</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_azi" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0073">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0220" xlate="true">Change Elevation</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_gel" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0074">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0221" xlate="true">Earth</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_artan" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0075">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0222" xlate="true">Earth Hatch</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_mr" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0076">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0223" xlate="true">Increase Font</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Fontin" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0077">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0224" xlate="true">Decrease Font</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Fontde" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0050">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0184" xlate="true">Print</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Cetak" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+        <PopMenu hasDiesel="false" UID="PMU_0003">
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Name xlate="true" UID="XLS_0207">Help</Name>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0087">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0209" xlate="true">HelpJackCAD</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Helpjc" />
+            </MenuItem>
+          </PopMenuItem>
+          <PopMenuItem IsSeparator="false" hasDiesel="false" UID="PMIU_0086">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <NameRef UID="XLS_0208" xlate="true">Activate</NameRef>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_L200" />
+            </MenuItem>
+          </PopMenuItem>
+        </PopMenu>
+      </PopMenuRoot>
+      <ToolbarRoot>
+        <Toolbar ToolbarOrient="top" ToolbarVisible="show" xval="0" yval="2" rows="1" UID="ID_TbTopo">
+          <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+          <Alias>TB_Topografi</Alias>
+          <Alias>Topografi</Alias>
+          <Alias>Topographic</Alias>
+          <Name xlate="true" UID="XLS_0087">Jackcad</Name>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0001">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0088">Project</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Proyek" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0033">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0126">General Setting</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Seting" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0003">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0090">Run Map</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_poligon" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0013">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0101">Existing Long Section</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_ExLong" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0014">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0102">Existing Cross Section</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_ExCross" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0015">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0104">Alignment</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_trase" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0070">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0196">Cad to Excell</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0054" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0016">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0106">Design Long Section</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="MMU_0044" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0017">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0107">Design Cross Section</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_DeCross" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0018">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0108">Step Long Section</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Steplong" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0019">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0109">Step Cross Section</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_StepCross" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0020">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0111">Structure</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_sadap" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0032">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0124">Standard Drawing</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_standar" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0074">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0206">WL Slope</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_slp" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0073">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0204">Azimuth</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_azi" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0044">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0145">Earth Hatch</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_mr" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0040">
+            <ModifiedRev MajorVersion="16" MinorVersion="2" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0137">Earth</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_artan" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0059">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0178">Print</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Cetak" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0071">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0202">HelpJackCAD</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_Helpjc" />
+            </MenuItem>
+          </ToolbarButton>
+          <ToolbarButton IsSeparator="false" UID="TBBU_0072">
+            <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
+            <Name xlate="true" UID="XLS_0203">Activate</Name>
+            <MenuItem>
+              <MacroRef MenuMacroID="ID_L200" />
+            </MenuItem>
+          </ToolbarButton>
+        </Toolbar>
+      </ToolbarRoot>
+      <ScreenMenuRoot />
+      <ImageMenuRoot />
+      <TabletMenuRoot />
+      <DoubleClickRoot />
+    </MenuRoot>
+  </MenuGroup>
+</CustSection>
