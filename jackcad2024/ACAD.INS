@@ -1,0 +1,61 @@
+//
+//      AutoCAD menu file - C:\PROGRAM FILES\ACAD2000\support\acad.mnc
+//
+
+
+***POP10
+**WINDOW
+ID_MnKhusus    [I&rigasi]
+ID_MnLong      [->&Long]
+ID_BawaL         [&Main]^C^C(setq tipe 1) (load "/irigasi/long/irrpro") (main) 
+ID_BawaL         [&Tersier]^C^C(setq tipe 2) (load "/irigasi/long/irrpro") (main) 
+ID_DrainL        [&Drain]^C^C(setq tipe 3) (load "/irigasi/long/irrpro") (main) 
+ID_DrainL        [Dim &Long]^C^C(load "c:/irigasi/long/nl") nl 
+ID_DrainL        [->&Setting]
+ID_BawaL           [&Main]^C^C(setq tipe 1) (load "/irigasi/long/lm-set") (lm-set) 
+ID_BawaL           [&Tersier]^C^C(setq tipe 2) (load "/irigasi/long/lt-set") (lt-set) 
+ID_DrainL          [<-<-&Drain]^C^C(setq tipe 3) (load "/irigasi/long/ld-set") (ld-set) 
+               [--]
+ID_MnLong      [->&Cross]
+ID_BawaL         [&Main]^C^C(setq tipe 1) (load "/irigasi/cross/irrcross") (main) 
+ID_BawaL         [&Tersier]^C^C(setq tipe 2) (load "/irigasi/cross/irrcross") (main) 
+ID_DrainL        [&Drain]^C^C(setq tipe 3) (load "/irigasi/cross/irrcross") (main) 
+ID_DrainL        [Dim &Cross]^C^C(load "c:/irigasi/cross/nc") nc 
+ID_DrainL        [->&Setting]
+ID_BawaL           [&Main]^C^C(setq tipe 1) (load "/irigasi/cross/cm-set") (cm-set) 
+ID_BawaL           [&Tersier]^C^C(setq tipe 2) (load "/irigasi/cross/ct-set") (ct-set) 
+ID_DrainL          [<-<-&Drain]^C^C(setq tipe 3) (load "/irigasi/cross/cd-set") (cd-set) 
+               [--]
+ID_MnUkur      [->&Topografi]
+ID_xyz           [&Poligon]^C^C(load "c:/irigasi/topo/poligon") poligon 
+ID_xyz           [&Cross]^C^C(load "c:/irigasi/topo/cross") cross 
+ID_xyz           [S&ituasi]^C^C(load "c:/irigasi/topo/situasi") (main) 
+ID_xyz           [&BM]^C^C(load "c:/irigasi/topo/bm") bm 
+ID_xyz           [&Data XYZ]^C^C(load "c:/irigasi/topo/xyz") xyz 
+ID_xyz           [P&LB]^C^C(load "c:/irigasi/topo/plb") plb 
+ID_xyz           [&Kop]^C^C(load "c:/irigasi/topo/kopi") kopi 
+ID_xyz           [&Grid]^C^C(load "c:/irigasi/topo/gridi") gridi 
+ID_xyz           [&Anak Sungai]^C^C(load "c:/irigasi/topo/anak") anak 
+ID_xyz           [<-&Setting]^C^C(load "c:/irigasi/topo/t-set") t-set 
+               [--]
+ID_MnUkur      [->&Bangunan]
+ID_xyz           [&Sadap]^C^C(load "c:/irigasi/sadap/sadap") sadap 
+ID_xyz           [&Box]^C^C(load "c:/irigasi/boks/boks") boks 
+ID_xyz           [&Terjunan]^C^C(load "c:/irigasi/terjun/terjun") terjun 
+ID_xyz           [<-&Gorong]^C^C(load "c:/irigasi/gorong/gorong") gorong 
+               [--]
+ID_MnUkur      [->&Standard]
+ID_xyz           [&Jembatan Kayu]^C^C(load "c:/irigasi/standar/JK") JK 
+ID_xyz           [&Sorong 1 stang]^C^C(load "c:/irigasi/standar/sorong1") sorong1 
+ID_xyz           [&Rumah 36]^C^C(load "c:/irigasi/standar/R36") R36 
+ID_xyz           [S&kot Balok]^C^C(load "c:/irigasi/standar/skot") skot 
+ID_xyz           [&Tabat]^C^C(load "c:/irigasi/standar/tabat") tabat 
+ID_xyz           [&Pintu Klep]^C^C(load "c:/irigasi/standar/klep") klep 
+ID_xyz           [&Gorong-gorong]^C^C(load "c:/irigasi/standar/gorong") gorong 
+ID_xyz           [J&embatan Balok T]^C^C(load "c:/irigasi/standar/T5") T5 
+ID_xyz           [<-Terj&unan]^C^C(load "c:/irigasi/standar/xyzcross") xyzcross 
+ID_WINDOW_CASCADE [&Cascade]
+ID_WINDOW_TILE_HORZ [Tile &Horizontally]
+ID_WINDOW_TILE_VERT [&Tile Vertically]
+ID_WINDOW_ARRANGE [&Arrange Icons]
+
