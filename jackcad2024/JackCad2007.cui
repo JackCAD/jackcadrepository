@@ -44,7 +44,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0015">XYZ Data</Name>
-          <Command>^C^C(load (strcat "c:/jackcad2022/topo/xyz")) xyz  </Command>
+          <Command>^C^C(load (strcat "c:/jackcad2024/topo/xyz")) xyz  </Command>
           <SmallImage Name="C:\jackcad2024\newicon\XYZ Data.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\XYZ Data.bmp" />
         </Macro>
@@ -54,7 +54,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0017">Title Block</Name>
-          <Command>^C^C(load (strcat "c:/jackcad2022/topo/kopi")) kopi  </Command>
+          <Command>^C^C(load (strcat "c:/jackcad2024/topo/kopi")) kopi  </Command>
           <SmallImage Name="C:\jackcad2024\newicon\titleblock.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\titleblock.bmp" />
         </Macro>
@@ -64,7 +64,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0019">Layout Title Block</Name>
-          <Command>^C^C(load (strcat "c:/jackcad2022/topo/kopilay")) kopilay  </Command>
+          <Command>^C^C(load (strcat "c:/jackcad2024/topo/kopilay")) kopilay  </Command>
           <SmallImage Name="C:\jackcad2024\newicon\layouttitle.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\layouttitle.bmp" />
         </Macro>
@@ -74,7 +74,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0028">Alignment</Name>
-          <Command>^C^C(load (strcat "c:/jackcad2024/long/trase")) trase  </Command>
+          <Command>^C^C(load (strcat "c:/jackcad2024/long/trase2007")) trase2007  </Command>
           <SmallImage Name="C:\jackcad2024\newicon\alignment2.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\alignment2.bmp" />
         </Macro>
@@ -84,7 +84,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0030">Existing Long section</Name>
-          <Command>^C^C(setq exis 1 stepm 0)(load (strcat "c:/jackcad2022/long/irrpro")) irrpro  </Command>
+          <Command>^C^C(setq exis 1 stepm 0)(load (strcat "c:/jackcad2024/long/irrpro")) irrpro  </Command>
           <SmallImage Name="C:\jackcad2024\newicon\long existing2.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\long existing2.bmp" />
         </Macro>
@@ -94,7 +94,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0034">Existing Cross Section</Name>
-          <Command>^C^C(setq exis 1 stepm 0)(load (strcat "c:/jackcad2022/cross/crpe")) crpe  </Command>
+          <Command>^C^C(setq exis 1 stepm 0)(load (strcat "c:/jackcad2024/cross/crpe")) crpe  </Command>
           <SmallImage Name="C:\jackcad2024\newicon\existingcros2.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\existingcros2.bmp" />
         </Macro>
@@ -104,7 +104,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0036">Design Cross Section</Name>
-          <Command>^C^C(setq exis 0 stepm 0)(load (strcat "c:/jackcad2022/cross/crpe")) crpe  </Command>
+          <Command>^C^C(setq exis 0 stepm 0)(load (strcat "c:/jackcad2024/cross/crpe")) crpe  </Command>
           <SmallImage Name="C:\jackcad2024\newicon\designcross2.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\designcross2.bmp" />
         </Macro>
@@ -114,7 +114,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0039">Long Step Methode</Name>
-          <Command>^C^C(setq stepm 1 exis 0)(load (strcat "c:/jackcad2022/long/irrpro")) irrpro  </Command>
+          <Command>^C^C(setq stepm 1 exis 0)(load (strcat "c:/jackcad2024/long/irrpro")) irrpro  </Command>
           <SmallImage Name="C:\jackcad2024\newicon\longstep2.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\longstep2.bmp" />
         </Macro>
@@ -124,7 +124,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0041">Cross Step Methode</Name>
-          <Command>^C^C(setq stepm 1 exis 0)(load (strcat "c:/jackcad2022/cross/crpe")) crpe  </Command>
+          <Command>^C^C(setq stepm 1 exis 0)(load (strcat "c:/jackcad2024/cross/crpe")) crpe  </Command>
           <SmallImage Name="C:\jackcad2024\newicon\crosstep2.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\crosstep2.bmp" />
         </Macro>
@@ -144,7 +144,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0068">Standard Drawing</Name>
-          <Command>^C^C(load (strcat "c:/jackcad2022/standar/standar")) standar  </Command>
+          <Command>^C^C(load (strcat "c:/jackcad2024/standar/standar")) standar  </Command>
           <SmallImage Name="C:\jackcad2024\newicon\standard2.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\standard2.bmp" />
         </Macro>
@@ -164,7 +164,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0073">Cross Setting</Name>
-          <Command>^C^C(load (strcat "c:/jackcad2022/cross/o-cros")) o-cros  </Command>
+          <Command>^C^C(load (strcat "c:/jackcad2024/cross/o-cros")) o-cros  </Command>
           <SmallImage Name="C:\jackcad2024\newicon\setiing cross2.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\setiing cross2.bmp" />
         </Macro>
@@ -174,7 +174,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0075">Long Setting</Name>
-          <Command>^C^C(load (strcat "c:/jackcad2022/long/o-long")) o-long  </Command>
+          <Command>^C^C(load (strcat "c:/jackcad2024/long/o-long")) o-long  </Command>
           <SmallImage Name="C:\jackcad2024\newicon\setting long2 (2).bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\setting long2 (2).bmp" />
         </Macro>
@@ -184,7 +184,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0083">Print</Name>
-          <Command>^C^C(load (strcat "C:/jackcad2022/lsp-lain/lain")) cetak  </Command>
+          <Command>^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) cetak  </Command>
           <SmallImage Name="C:\jackcad2024\newicon\print.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\print.bmp" />
         </Macro>
@@ -194,7 +194,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0097">Grid</Name>
-          <Command>^C^C(load (strcat "c:/jackcad2022/topo/gridi")) gridi </Command>
+          <Command>^C^C(load (strcat "c:/jackcad2024/topo/gridi")) gridi </Command>
           <SmallImage Name="C:\jackcad2024\newicon\grid.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\grid.bmp" />
         </Macro>
@@ -204,7 +204,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0105">Design Long Section</Name>
-          <Command>^C^C(setq exis 0 stepm 0)(load (strcat "c:/jackcad2022/long/irrpro")) irrpro  </Command>
+          <Command>^C^C(setq exis 0 stepm 0)(load (strcat "c:/jackcad2024/long/irrpro")) irrpro  </Command>
           <SmallImage Name="C:\jackcad2024\newicon\design long2.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\design long2.bmp" />
         </Macro>
@@ -214,7 +214,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0129">Map Setting</Name>
-          <Command>^C^C(load (strcat "c:/jackcad2022/topo/o-sit")) o-sit </Command>
+          <Command>^C^C(load (strcat "c:/jackcad2024/topo/o-sit")) o-sit </Command>
           <SmallImage Name="C:\jackcad2024\newicon\Map Setting2.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\Map Setting2.bmp" />
         </Macro>
@@ -224,7 +224,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0136">Earth</Name>
-          <Command>^C^C(load (strcat "C:/jackcad2022/lsp-lain/lain")) tn  </Command>
+          <Command>^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) tn  </Command>
           <SmallImage Name="C:\jackcad2024\newicon\earth.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\earth.bmp" />
         </Macro>
@@ -234,7 +234,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0138">Change Elevation</Name>
-          <Command>^C^C(load (strcat "C:/jackcad2022/lsp-lain/lain")) gel </Command>
+          <Command>^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) gel </Command>
           <SmallImage Name="C:\jackcad2024\newicon\changeelev.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\changeelev.bmp" />
         </Macro>
@@ -244,7 +244,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0140">Text Rotation</Name>
-          <Command>^C^C(load (strcat "C:/jackcad2022/lsp-lain/lain")) rt </Command>
+          <Command>^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) rt </Command>
           <SmallImage Name="C:\jackcad2024\newicon\textrotate.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\textrotate.bmp" />
         </Macro>
@@ -254,7 +254,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0142">Azimuth</Name>
-          <Command>^C^C(load (strcat "C:/jackcad2022/lsp-lain/lain")) azi </Command>
+          <Command>^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) azi </Command>
           <SmallImage Name="C:\jackcad2024\newicon\azimuth.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\azimuth.bmp" />
         </Macro>
@@ -264,7 +264,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0144">Earth Hatch</Name>
-          <Command>^C^C(load (strcat "C:/jackcad2022/lsp-lain/lain")) mr </Command>
+          <Command>^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) mr </Command>
           <SmallImage Name="C:\jackcad2024\newicon\hatch.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\hatch.bmp" />
         </Macro>
@@ -294,7 +294,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0179">StructureOption</Name>
-          <Command>^C^C(load (strcat "c:/jackcad2022/bangunan/o-bangunan")) o-bangunan </Command>
+          <Command>^C^C(load (strcat "c:/jackcad2024/bangunan/o-bangunan")) o-bangunan </Command>
           <HelpString xlate="true" UID="XLS_0180">StuctureOption</HelpString>
           <SmallImage Name="C:\jackcad2024\newicon\watersetting.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\watersetting.bmp" />
@@ -305,7 +305,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0187">Petak Tersier</Name>
-          <Command>^C^C(load (strcat "C:/jackcad2022/pter")) pter  </Command>
+          <Command>^C^C(load (strcat "C:/jackcad2024/pter")) pter  </Command>
           <HelpString xlate="true" UID="XLS_0188">Petak Tersier</HelpString>
           <SmallImage Name="C:\jackcad2024\newicon\pettersier.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\pettersier.bmp" />
@@ -316,7 +316,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0190">Petak Kwarter</Name>
-          <Command>^C^C(load (strcat "C:/jackcad2022/pkwar")) pkwar  </Command>
+          <Command>^C^C(load (strcat "C:/jackcad2024/pkwar")) pkwar  </Command>
           <HelpString xlate="true" UID="XLS_0191">Petak Kwarter</HelpString>
           <SmallImage Name="C:\jackcad2024\newicon\petkwarter.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\petkwarter.bmp" />
@@ -327,7 +327,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0194">Cad to Excell</Name>
-          <Command>^C^C(load (strcat "c:/jackcad2022/topo/stoe")) stoe </Command>
+          <Command>^C^C(load (strcat "c:/jackcad2024/topo/stoe")) stoe </Command>
           <HelpString xlate="true" UID="XLS_0195">Cad to Excell</HelpString>
           <SmallImage Name="C:\jackcad2024\newicon\AE2.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\AE2.bmp" />
@@ -338,7 +338,7 @@ To access the Customize User Interface dialog box, click the Tools menu > Custom
           <Revision MajorVersion="16" MinorVersion="2" UserVersion="1" />
           <ModifiedRev MajorVersion="17" MinorVersion="0" UserVersion="1" />
           <Name xlate="true" UID="XLS_0198">Lokasi Judul</Name>
-          <Command>^C^C(load (strcat "c:/jackcad2022/lsp-lain/lain")) lokasijudul </Command>
+          <Command>^C^C(load (strcat "c:/jackcad2024/lsp-lain/lain")) lokasijudul </Command>
           <HelpString xlate="true" UID="XLS_0199">Lokasi Judul</HelpString>
           <SmallImage Name="C:\jackcad2024\newicon\TITLE.bmp" />
           <LargeImage Name="C:\jackcad2024\newicon\TITLE.bmp" />
