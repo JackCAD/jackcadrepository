@@ -924,11 +924,15 @@ Iptw : dialog {
 		
 		:text { label = "";}
 
+:text { label = "Bima (Admin) +6285135637931";}
+:text { label = "Heri (Technical Support) +6289610500987";}
+
+		
 :column {
 label = "Contact :";
 :text { label = "Email : jackcad.id@gmail.com";}
-:text { label = "Bima (Admin) +628993674499";}
-:text { label = "Frida (Technical Support) +6289643069059";}
+:text { label = "Bima (Admin) +6285135637931";}
+:text { label = "Heri (Technical Support) +6289610500987";}
 }
 				:text { label = "";}
 
@@ -1206,11 +1210,84 @@ Bantuan : dialog {
 		:column {
 label = "Contact :";
 :text { label = "Email : jackcad.id@gmail.com";}
-:text { label = "Bima (Admin) +628993674499";}
-:text { label = "Frida (Technical Support) +6289643069059";}
+:text { label = "Bima (Admin) +6285135637931";}
+:text { label = "Heri (Technical Support) +6289610500987";}
 }
 		:text { label = "";}
 		ok_cancel;
 
 	}
 	
+//
+////=============
+////Manual Drawing
+//ManualDrawing : dialog {
+//	label = "Drawing Manual";
+//	
+//	:text { label = "Manual JackCAD";}
+//	:row {
+//		:text { label = "Saluran";}
+//			: button {			
+//			label = "Plan";			
+//			key = "Min";			
+//			width = 7;
+//			//height = 5;
+//			}
+//			: button {			
+//			label = "Long";			
+//			key = "Mpro";			
+//			width = 7;
+//			//height = 5;
+//			}
+//			: button {			
+//			label = "Cross";			
+//			key = "Mtop";			
+//			width = 7;
+//			//height = 5;
+//			}
+//			}
+//	:row {
+//			: button {			
+//			label = "Canal Design";			
+//			key = "Mcan";			
+//			width = 7;
+//			//height = 5;
+//			}
+//			: button {			
+//			label = "Structure";			
+//			key = "Mstru";			
+//			width = 7;
+//			//height = 5;
+//			}
+//			: button {			
+//			label = "Tools";			
+//			key = "Mtol";			
+//			width = 7;
+//			//height = 5;
+//			}
+//			}
+////			: button {
+////			label = "Tutorial Video";			
+////			key = "Vitut";			
+////			width = 20;
+////			height = 5;			
+////			}
+//			: button {
+//			label = "Click here to order JackCAD and HeriAds";
+//			key = "pesanan";			
+//			width = 20;
+//			height = 5;
+//			
+//			}
+//		}
+//		:column {
+//label = "Contact :";
+//:text { label = "Email : jackcad.id@gmail.com";}
+//:text { label = "Bima (Admin) +628993674499";}
+//:text { label = "Frida (Technical Support) +6289643069059";}
+//}
+//		:text { label = "";}
+//		ok_cancel;
+//
+//	}
+//	
