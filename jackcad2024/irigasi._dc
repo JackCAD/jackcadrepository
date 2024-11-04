@@ -911,21 +911,30 @@ Iptw : dialog {
 :column {
 label = "Contact :";
 :text { label = "Email : jackcad.id@gmail.com";}
-:text { label = "Heri Purnama WhatsApp 089610500987";}
-:text { label = "Bima Maulana WhatsApp 08993674499";}
+:text { label = "Bima (Admin) +628993674499";}
+:text { label = "Frida (Technical Support) +6289643069059";}
 }
 				:text { label = "";}
 
-
+:row {
 				: button {
 			label = "Click here to order JackCAD and HeriAds";
 			key = "pesanan2";
-			height = 5;
+			height = 4;
 			//width = 8;
 			fixed_width = true;
 			}
 	
-		
+				: button {
+			label = "Chat with JackCAD";
+			key = "chat1";
+			height = 4;
+			//width = 8;
+			fixed_width = true;
+			}
+}
+
+	
 		ok_cancel;
 }
 
@@ -1123,19 +1132,53 @@ Bantuan : dialog {
 			width = 20;
 			height = 5;
 			}
-	
+	:text { label = "Manual JackCAD";}
+	:row {
 			: button {			
-			label = "Manual JackCAD";			
-			key = "Mbook";			
-			width = 20;
-			height = 5;
+			label = "Install";			
+			key = "Min";			
+			width = 7;
+			//height = 5;
 			}
-			: button {
-			label = "Tutorial Video";			
-			key = "Vitut";			
-			width = 20;
-			height = 5;			
+			: button {			
+			label = "Proyek";			
+			key = "Mpro";			
+			width = 7;
+			//height = 5;
 			}
+			: button {			
+			label = "Topografi";			
+			key = "Mtop";			
+			width = 7;
+			//height = 5;
+			}
+			}
+	:row {
+			: button {			
+			label = "Canal Design";			
+			key = "Mcan";			
+			width = 7;
+			//height = 5;
+			}
+			: button {			
+			label = "Structure";			
+			key = "Mstru";			
+			width = 7;
+			//height = 5;
+			}
+			: button {			
+			label = "Tools";			
+			key = "Mtol";			
+			width = 7;
+			//height = 5;
+			}
+			}
+//			: button {
+//			label = "Tutorial Video";			
+//			key = "Vitut";			
+//			width = 20;
+//			height = 5;			
+//			}
 			: button {
 			label = "Click here to order JackCAD and HeriAds";
 			key = "pesanan";			
@@ -1144,6 +1187,12 @@ Bantuan : dialog {
 			
 			}
 		}
+		:column {
+label = "Contact :";
+:text { label = "Email : jackcad.id@gmail.com";}
+:text { label = "Bima (Admin) +628993674499";}
+:text { label = "Frida (Technical Support) +6289643069059";}
+}
 		:text { label = "";}
 		ok_cancel;
 

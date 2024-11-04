@@ -102,7 +102,7 @@
 (if (/= (findfile "D:/jackcad2024/Long/grs-renc._LS") nil)(vl-file-delete "D:/jackcad2024/Long/grs-renc._LS"))
 (if (/= (findfile "D:/jackcad2024/Long/GRS-RENC-step._LS") nil)(vl-file-delete "D:/jackcad2024/Long/GRS-RENC-step._LS"))
 (if (/= (findfile "D:/jackcad2024/CROSS/tnh-as._LS") nil)(vl-file-delete "D:/jackcad2024/CROSS/tnh-as._LS"))
-(if (/= (findfile "D:/jackcad2024/CROSS/Skatul._LS") nil)(vl-file-delete "D:/jackcad2024/CROSS/Skatul._LS"))
+;;(if (/= (findfile "D:/jackcad2024/CROSS/Skatul._LS") nil)(vl-file-delete "D:/jackcad2024/CROSS/Skatul._LS"))
 (if (/= (findfile "D:/jackcad2024/CROSS/sal-renc._LS") nil)(vl-file-delete "D:/jackcad2024/CROSS/sal-renc._LS"))
 (if (/= (findfile "D:/jackcad2024/CROSS/SAL-RENC-tn._LS") nil)(vl-file-delete "D:/jackcad2024/CROSS/SAL-RENC-tn._LS"))
 (if (/= (findfile "D:/jackcad2024/CROSS/SAL-RENC-step._LS") nil)(vl-file-delete "D:/jackcad2024/CROSS/SAL-RENC-step._LS"))
@@ -229,7 +229,7 @@
 (if (/= (findfile "D:/jackcad2024/subroutine/Browsefolder._LS") nil)(vl-file-delete "D:/jackcad2024/subroutine/Browsefolder._LS"))
 (if (/= (findfile "D:/jackcad2024/CROSS/re-fi._LS") nil)(vl-file-delete "D:/jackcad2024/CROSS/re-fi._LS"))
 (if (/= (findfile "D:/jackcad2024/Long/tip-PAS._LS") nil)(vl-file-delete "D:/jackcad2024/Long/tip-PAS._LS"))
-(if (/= (findfile "D:/jackcad2024/CROSS/Skat_l._LS") nil)(vl-file-delete "D:/jackcad2024/CROSS/Skat_l._LS"))
+;;(if (/= (findfile "D:/jackcad2024/CROSS/Skat_l._LS") nil)(vl-file-delete "D:/jackcad2024/CROSS/Skat_l._LS"))
 (if (/= (findfile "D:/jackcad2024/Sadap/sub/BOQ/boqpompa._LS") nil)(vl-file-delete "D:/jackcad2024/Sadap/sub/BOQ/boqpompa._LS"))
 (if (/= (findfile "D:/jackcad2024/Sadap/sub/BOQ/boqambang._LS") nil)(vl-file-delete "D:/jackcad2024/Sadap/sub/BOQ/boqambang._LS"))
 (if (/= (findfile "D:/jackcad2024/Sadap/sub/BOQ/boqgorong._LS") nil)(vl-file-delete "D:/jackcad2024/Sadap/sub/BOQ/boqgorong._LS"))
@@ -395,7 +395,7 @@
 (if (/= (findfile "D:/jackcad2024/Long/grs-renc.LSP") nil)(vlisp-compile 'st "D:/jackcad2024/Long/grs-renc.LSP"))
 (if (/= (findfile "D:/jackcad2024/Long/GRS-RENC-step.LSP") nil)(vlisp-compile 'st "D:/jackcad2024/Long/GRS-RENC-step.LSP"))
 (if (/= (findfile "D:/jackcad2024/CROSS/tnh-as.LSP") nil)(vlisp-compile 'st "D:/jackcad2024/CROSS/tnh-as.LSP"))
-(if (/= (findfile "D:/jackcad2024/CROSS/Skatul.LSP") nil)(vlisp-compile 'st "D:/jackcad2024/CROSS/Skatul.LSP"))
+;;(if (/= (findfile "D:/jackcad2024/CROSS/Skatul.LSP") nil)(vlisp-compile 'st "D:/jackcad2024/CROSS/Skatul.LSP"))
 (if (/= (findfile "D:/jackcad2024/CROSS/sal-renc.LSP") nil)(vlisp-compile 'st "D:/jackcad2024/CROSS/sal-renc.LSP"))
 (if (/= (findfile "D:/jackcad2024/CROSS/SAL-RENC-tn.LSP") nil)(vlisp-compile 'st "D:/jackcad2024/CROSS/SAL-RENC-tn.LSP"))
 (if (/= (findfile "D:/jackcad2024/CROSS/SAL-RENC-step.LSP") nil)(vlisp-compile 'st "D:/jackcad2024/CROSS/SAL-RENC-step.LSP"))
@@ -522,7 +522,7 @@
 (if (/= (findfile "D:/jackcad2024/subroutine/Browsefolder.LSP") nil)(vlisp-compile 'st "D:/jackcad2024/subroutine/Browsefolder.LSP"))
 (if (/= (findfile "D:/jackcad2024/CROSS/re-fi.LSP") nil)(vlisp-compile 'st "D:/jackcad2024/CROSS/re-fi.LSP"))
 (if (/= (findfile "D:/jackcad2024/Long/tip-PAS.LSP") nil)(vlisp-compile 'st "D:/jackcad2024/Long/tip-PAS.LSP"))
-(if (/= (findfile "D:/jackcad2024/CROSS/Skat_l.LSP") nil)(vlisp-compile 'st "D:/jackcad2024/CROSS/Skat_l.LSP"))
+;;(if (/= (findfile "D:/jackcad2024/CROSS/Skat_l.LSP") nil)(vlisp-compile 'st "D:/jackcad2024/CROSS/Skat_l.LSP"))
 (if (/= (findfile "D:/jackcad2024/Sadap/sub/BOQ/boqpompa.LSP") nil)(vlisp-compile 'st "D:/jackcad2024/Sadap/sub/BOQ/boqpompa.LSP"))
 (if (/= (findfile "D:/jackcad2024/Sadap/sub/BOQ/boqambang.LSP") nil)(vlisp-compile 'st "D:/jackcad2024/Sadap/sub/BOQ/boqambang.LSP"))
 (if (/= (findfile "D:/jackcad2024/Sadap/sub/BOQ/boqgorong.LSP") nil)(vlisp-compile 'st "D:/jackcad2024/Sadap/sub/BOQ/boqgorong.LSP"))
@@ -687,7 +687,7 @@
 (if (and (/= (findfile "D:/jackcad2024/Long/grs-renc.LSP") nil)(/= (findfile "D:/jackcad2024/Long/grs-renc.fas") nil))(vl-file-delete  "D:/jackcad2024/Long/grs-renc.LSP"))
 (if (and (/= (findfile "D:/jackcad2024/Long/GRS-RENC-step.LSP") nil)(/= (findfile "D:/jackcad2024/Long/GRS-RENC-step.fas") nil))(vl-file-delete  "D:/jackcad2024/Long/GRS-RENC-step.LSP"))
 (if (and (/= (findfile "D:/jackcad2024/CROSS/tnh-as.LSP") nil)(/= (findfile "D:/jackcad2024/CROSS/tnh-as.fas") nil))(vl-file-delete  "D:/jackcad2024/CROSS/tnh-as.LSP"))
-(if (and (/= (findfile "D:/jackcad2024/CROSS/Skatul.lsp") nil)(/= (findfile "D:/jackcad2024/CROSS/Skatul.fas") nil))(vl-file-delete  "D:/jackcad2024/CROSS/Skatul.lsp"))
+;;(if (and (/= (findfile "D:/jackcad2024/CROSS/Skatul.lsp") nil)(/= (findfile "D:/jackcad2024/CROSS/Skatul.fas") nil))(vl-file-delete  "D:/jackcad2024/CROSS/Skatul.lsp"))
 (if (and (/= (findfile "D:/jackcad2024/CROSS/sal-renc.LSP") nil)(/= (findfile "D:/jackcad2024/CROSS/sal-renc.fas") nil))(vl-file-delete  "D:/jackcad2024/CROSS/sal-renc.LSP"))
 (if (and (/= (findfile "D:/jackcad2024/CROSS/SAL-RENC-tn.LSP") nil)(/= (findfile "D:/jackcad2024/CROSS/SAL-RENC-tn.fas") nil))(vl-file-delete  "D:/jackcad2024/CROSS/SAL-RENC-tn.LSP"))
 (if (and (/= (findfile "D:/jackcad2024/CROSS/SAL-RENC-step.LSP") nil)(/= (findfile "D:/jackcad2024/CROSS/SAL-RENC-step.fas") nil))(vl-file-delete  "D:/jackcad2024/CROSS/SAL-RENC-step.LSP"))
@@ -814,7 +814,7 @@
 (if (and (/= (findfile "D:/jackcad2024/subroutine/Browsefolder.lsp") nil)(/= (findfile "D:/jackcad2024/subroutine/Browsefolder.fas") nil))(vl-file-delete  "D:/jackcad2024/subroutine/Browsefolder.lsp"))
 (if (and (/= (findfile "D:/jackcad2024/CROSS/re-fi.LSP") nil)(/= (findfile "D:/jackcad2024/CROSS/re-fi.fas") nil))(vl-file-delete  "D:/jackcad2024/CROSS/re-fi.LSP"))
 (if (and (/= (findfile "D:/jackcad2024/Long/tip-PAS.LSP") nil)(/= (findfile "D:/jackcad2024/Long/tip-PAS.fas") nil))(vl-file-delete  "D:/jackcad2024/Long/tip-PAS.LSP"))
-(if (and (/= (findfile "D:/jackcad2024/CROSS/Skat_l.lsp") nil)(/= (findfile "D:/jackcad2024/CROSS/Skat_l.fas") nil))(vl-file-delete  "D:/jackcad2024/CROSS/Skat_l.lsp"))
+;;(if (and (/= (findfile "D:/jackcad2024/CROSS/Skat_l.lsp") nil)(/= (findfile "D:/jackcad2024/CROSS/Skat_l.fas") nil))(vl-file-delete  "D:/jackcad2024/CROSS/Skat_l.lsp"))
 (if (and (/= (findfile "D:/jackcad2024/Sadap/sub/BOQ/boqpompa.LSP") nil)(/= (findfile "D:/jackcad2024/Sadap/sub/BOQ/boqpompa.fas") nil))(vl-file-delete  "D:/jackcad2024/Sadap/sub/BOQ/boqpompa.LSP"))
 (if (and (/= (findfile "D:/jackcad2024/Sadap/sub/BOQ/boqambang.LSP") nil)(/= (findfile "D:/jackcad2024/Sadap/sub/BOQ/boqambang.fas") nil))(vl-file-delete  "D:/jackcad2024/Sadap/sub/BOQ/boqambang.LSP"))
 (if (and (/= (findfile "D:/jackcad2024/Sadap/sub/BOQ/boqgorong.LSP") nil)(/= (findfile "D:/jackcad2024/Sadap/sub/BOQ/boqgorong.fas") nil))(vl-file-delete  "D:/jackcad2024/Sadap/sub/BOQ/boqgorong.LSP"))
@@ -885,12 +885,12 @@
 (if (and (/= (findfile "D:/jackcad2024/Sadap/RM.LSP") nil)(/= (findfile "D:/jackcad2024/Sadap/RM.fas") nil))(vl-file-delete  "D:/jackcad2024/Sadap/RM.LSP"))
 
 
-  (startapp "cmd.exe" "/c rmdir /s /q D:\\jackcad2024\\SampleExcel")
-;;;  C:\jackcad2024\SampleExcel
-;;;  C:\jackcad2024\TemplateExcel
-;;;  C:\jackcad2024\VBA
 
-
+  (startapp "cmd.exe" "/c move D:\\jackcad2024\\JackCAD-HeriAds D:")
+  (startapp "cmd.exe" "/c move D:\\jackcad2024\\SampleExcel D:\\JackCAD-HeriAds\\HeriAds1.0")
+  (startapp "cmd.exe" "/c move D:\\jackcad2024\\TemplateExcel D:\\JackCAD-HeriAds\\HeriAds1.0")
+  (startapp "cmd.exe" "/c rmdir /s /q D:\\jackcad2024\\VBA")
+  (startapp "cmd.exe" "/c move D:\\jackcad2024 D:\\JackCAD-HeriAds")
 
   
   )

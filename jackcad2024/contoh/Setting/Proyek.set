@@ -1,5 +1,5 @@
 sca-top
-2000
+1000
 dig-top
 2
 scav-lm
@@ -52,6 +52,8 @@ pj-ld
 600
 sca-cm
 200
+sca-cmver
+50
 kol-cm
 2
 bar-cm
@@ -60,6 +62,8 @@ dat-cm
 2
 sca-ct
 50
+sca-ctver
+50
 kol-ct
 2
 bar-ct
@@ -67,6 +71,8 @@ bar-ct
 dat-ct
 .5
 sca-cd
+100
+sca-cdver
 100
 kol-cd
 2

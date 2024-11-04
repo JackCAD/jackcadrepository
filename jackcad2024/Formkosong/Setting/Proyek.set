@@ -52,6 +52,8 @@ pj-ld
 600
 sca-cm
 100
+sca-cmver
+100
 kol-cm
 2
 bar-cm
@@ -59,7 +61,9 @@ bar-cm
 dat-cm
 2
 sca-ct
-100
+50
+sca-ctver
+50
 kol-ct
 2
 bar-ct
@@ -67,6 +71,8 @@ bar-ct
 dat-ct
 .5
 sca-cd
+100
+sca-cdver
 100
 kol-cd
 2

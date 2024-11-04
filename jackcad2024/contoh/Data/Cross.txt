@@ -1,5 +1,5 @@
-Topo 05 - Cross		(Nama Saluran...)																																					
-Jenis sal (0.Profil 1. Main System 2. Tersier 3. Drain) :				(No. Jenis Saluran...)																																			
+Topo 05 - Cross		aa																																					
+Jenis sal (0.Profil 1. Main System 2. Tersier 3. Drain) :				1																																			
 Jenis Bangunan : 1.Bendung 2. Bagi  3.Sadap 4.Terjun 5.Gr Pembawa 6.Gr Pembuang 7.Jembatan 8.Talang 9.Siphon 10.Got miring 11.Pelimpah samping 12.Box Tersier 13.Box Kwarter 14.Jembatan org 15.Tempat cuci 16.Mandi Hewan 17.Penguras																																							
 No Register :	(No. Register...)		"Model Gambar : 0 (Normal), 1 (Hanya Garis), 2 (Galian), 3 (Parapet), 4 (tanggul 2), 5 (Tanggul 1)"											"Keterangan cross : R (rumah), P (pagar), J (jalan), T (tanggul), D (dasar sal), L (lining), W (Rawa), S (sawah), K (kebun), B(boundary step methode),A (parapet)"																									
 PATOK	X	Y	Z	Azimuth kiri			Dim sal	HWL1	X																														

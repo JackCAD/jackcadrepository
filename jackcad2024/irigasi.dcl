@@ -275,7 +275,8 @@ S_et : dialog {
 	label = "Cross Section";
 	:column {
 	:text { label = "";}
-	:text { label = "Skala";}
+	:text { label = "Skala Horisontal";}
+	:text { label = "Skala Verikal";}
 	:text { label = "Jumlah Kolom";}
 	:text { label = "Jumlah Baris";}
 	:text { label = "Jarak dari datum";}
@@ -285,7 +286,12 @@ S_et : dialog {
 	:popup_list {
 		key = "cs_m";	
 		edit_width = 6;
-		list = "\n50\n100\n200\n300\n400\n500";						
+		list = "\n50\n100\n200\n300\n400\n500\n1000";						
+		}
+	:popup_list {
+		key = "cs_mver";	
+		edit_width = 6;
+		list = "\n50\n100\n200\n300\n400\n500\n1000";						
 		}
 	:popup_list {
 		key = "ck_m";	
@@ -311,6 +317,11 @@ S_et : dialog {
 		list = "\n50\n100\n200\n300\n400\n500";						
 		}
 	:popup_list {
+		key = "cs_tver";	
+		edit_width = 6;
+		list = "\n50\n100\n200\n300\n400\n500";						
+		}
+	:popup_list {
 		key = "ck_t";	
 		edit_width = 6;
 		list = "\n \n1\n2\n3";						
@@ -331,7 +342,12 @@ S_et : dialog {
 	:popup_list {
 		key = "cs_d";	
 		edit_width = 6;
-		list = "\n50\n100\n200\n300\n400\n500";						
+		list = "\n50\n100\n200\n300\n400\n500\n1000";						
+		}
+	:popup_list {
+		key = "cs_dver";	
+		edit_width = 6;
+		list = "\n50\n100\n200\n300\n400\n500\n1000";						
 		}
 	:popup_list {
 		key = "ck_d";	
@@ -1173,12 +1189,12 @@ Bantuan : dialog {
 			//height = 5;
 			}
 			}
-			: button {
-			label = "Tutorial Video";			
-			key = "Vitut";			
-			width = 20;
-			height = 5;			
-			}
+//			: button {
+//			label = "Tutorial Video";			
+//			key = "Vitut";			
+//			width = 20;
+//			height = 5;			
+//			}
 			: button {
 			label = "Click here to order JackCAD and HeriAds";
 			key = "pesanan";			
