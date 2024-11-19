@@ -839,7 +839,7 @@ Da_pro : dialog {
 			}
 		}
 		: list_box {
-		label = "Daftar Project";
+		label = "Double klik Daftar Project di bawah ini untuk mengaktifkan proyek";
                 key = "d_pro";
                 color = yellow;
                 width = 50;
@@ -923,9 +923,9 @@ Iptw : dialog {
 		}
 		
 		:text { label = "";}
-
-:text { label = "Bima (Admin) +6285135637931";}
-:text { label = "Heri (Technical Support) +6289610500987";}
+//
+//:text { label = "Bima (Admin) +6285135637931";}
+//:text { label = "Heri (Technical Support) +6289610500987";}
 
 		
 :column {
@@ -1221,186 +1221,186 @@ label = "Contact :";
 
 ////=============
 //Manual Drawing
-Manualstruct : dialog {
-	label = "Drawing Manual";
-	:row {
-		:text { label = "Saluran";width = 10;}
-		: button {			
-			label = "Plan";			
-			key = "Salplan";			
-			width = 7;
-			//height = 5;
-			}
-		: button {			
-			label = "Cross";			
-			key = "Salcros";			
-			width = 7;
-			//height = 5;
-			}
-		: button {			
-			label = "Long";			
-			key = "Sallong";			
-			width = 7;
-			//height = 5;
-			}
-			}
-
-	:row {
-		:text { label = "Peralihan";width = 10;}
-		: button {			
-			label = "Plan";			
-			key = "alihplan";			
-			width = 7;
-			//height = 5;
-			}
-		: button {			
-			label = "Cross";			
-			key = "alihcros";			
-			width = 7;
-			//height = 5;
-			}
-		: button {			
-			label = "Long";			
-			key = "alihlong";			
-			width = 7;
-			//height = 5;
-			}
-			}
-	:row {
-		:text { label = "Pintu";width = 10;}
-		: button {			
-			label = "Plan";			
-			key = "pintuplan";			
-			width = 7;
-			//height = 5;
-			}
-		: button {			
-			label = "Cross";			
-			key = "pintucros";			
-			width = 7;
-			//height = 5;
-			}
-		: button {			
-			label = "Long";			
-			key = "pintulong";			
-			width = 7;
-			//height = 5;
-			}
-			}
-
-	:row {
-		:text { label = "Belokan";width = 10;}
-		: button {			
-			label = "Plan";			
-			key = "belokplan";			
-			width = 7;
-			//height = 5;
-			}
-		: button {			
-			label = "Cross";			
-			key = "belokcros";			
-			width = 7;
-			//height = 5;
-			}
-		: button {			
-			label = "Long";			
-			key = "beloklong";			
-			width = 7;
-			//height = 5;
-			}
-			}
-
-	:row {
-		:text { label = "Gorong-gorong";width = 10;}
-		: button {			
-			label = "Plan";			
-			key = "gorplan";			
-			width = 7;
-			//height = 5;
-			}
-		: button {			
-			label = "Cross";			
-			key = "gorcros";			
-			width = 7;
-			//height = 5;
-			}
-		: button {			
-			label = "Long";			
-			key = "gorlong";			
-			width = 7;
-			//height = 5;
-			}
-			}
-
-	:row {
-		:text { label = "Bangunan Ukur";width = 10;}
-		: button {			
-			label = "Plan";			
-			key = "ukurplan";			
-			width = 7;
-			//height = 5;
-			}
-		: button {			
-			label = "Cross";			
-			key = "ukurcros";			
-			width = 7;
-			//height = 5;
-			}
-		: button {			
-			label = "Long";			
-			key = "ukurlong";			
-			width = 7;
-			//height = 5;
-			}
-			}
-
-	:row {
-		:text { label = "Terjun Tegak";width = 10;}
-		: button {			
-			label = "Plan";			
-			key = "terjunplan";			
-			width = 7;
-			//height = 5;
-			}
-		: button {			
-			label = "Cross";			
-			key = "terjuncros";			
-			width = 7;
-			//height = 5;
-			}
-		: button {			
-			label = "Long";			
-			key = "terjunlong";			
-			width = 7;
-			//height = 5;
-			}
-			}
-
-	
-	:row {
-		:text { label = "Terjun Miring";width = 10;}
-		: button {			
-			label = "Plan";			
-			key = "vlugterplan";			
-			width = 7;
-			//height = 5;
-			}
-		: button {			
-			label = "Cross";			
-			key = "vlugtercros";			
-			width = 7;
-			//height = 5;
-			}
-		: button {			
-			label = "Long";			
-			key = "vlugterlong";			
-			width = 7;
-			//height = 5;
-			}
-			}
-
-		:text { label = "";}
-		ok_cancel;
-
-	}
+//Manualstruct : dialog {
+//	label = "Drawing Manual";
+//	:row {
+//		:text { label = "Saluran";width = 15;}
+//		: button {			
+//			label = "Plan";			
+//			key = "Salplan";			
+//			width = 7;
+//			//height = 5;
+//			}
+//		: button {			
+//			label = "Cross";			
+//			key = "Salcros";			
+//			width = 7;
+//			//height = 5;
+//			}
+//		: button {			
+//			label = "Long";			
+//			key = "Sallong";			
+//			width = 7;
+//			//height = 5;
+//			}
+//			}
+//
+//	:row {
+//		:text { label = "Peralihan";width = 15;}
+//		: button {			
+//			label = "Plan";			
+//			key = "alihplan";			
+//			width = 7;
+//			//height = 5;
+//			}
+//		: button {			
+//			label = "Cross";			
+//			key = "alihcros";			
+//			width = 7;
+//			//height = 5;
+//			}
+//		: button {			
+//			label = "Long";			
+//			key = "alihlong";			
+//			width = 7;
+//			//height = 5;
+//			}
+//			}
+//	:row {
+//		:text { label = "Pintu";width = 15;}
+//		: button {			
+//			label = "Plan";			
+//			key = "pintuplan";			
+//			width = 7;
+//			//height = 5;
+//			}
+//		: button {			
+//			label = "Cross";			
+//			key = "pintucros";			
+//			width = 7;
+//			//height = 5;
+//			}
+//		: button {			
+//			label = "Long";			
+//			key = "pintulong";			
+//			width = 7;
+//			//height = 5;
+//			}
+//			}
+//
+//	:row {
+//		:text { label = "Belokan";width = 15;}
+//		: button {			
+//			label = "Plan";			
+//			key = "belokplan";			
+//			width = 7;
+//			//height = 5;
+//			}
+//		: button {			
+//			label = "Cross";			
+//			key = "belokcros";			
+//			width = 7;
+//			//height = 5;
+//			}
+//		: button {			
+//			label = "Long";			
+//			key = "beloklong";			
+//			width = 7;
+//			//height = 5;
+//			}
+//			}
+//
+//	:row {
+//		:text { label = "Gorong-gorong";width = 15;}
+//		: button {			
+//			label = "Plan";			
+//			key = "gorplan";			
+//			width = 7;
+//			//height = 5;
+//			}
+//		: button {			
+//			label = "Cross";			
+//			key = "gorcros";			
+//			width = 7;
+//			//height = 5;
+//			}
+//		: button {			
+//			label = "Long";			
+//			key = "gorlong";			
+//			width = 7;
+//			//height = 5;
+//			}
+//			}
+//
+//	:row {
+//		:text { label = "Bangunan Ukur";width = 15;}
+//		: button {			
+//			label = "Plan";			
+//			key = "ukurplan";			
+//			width = 7;
+//			//height = 5;
+//			}
+//		: button {			
+//			label = "Cross";			
+//			key = "ukurcros";			
+//			width = 7;
+//			//height = 5;
+//			}
+//		: button {			
+//			label = "Long";			
+//			key = "ukurlong";			
+//			width = 7;
+//			//height = 5;
+//			}
+//			}
+//
+//	:row {
+//		:text { label = "Terjun Tegak";width = 15;}
+//		: button {			
+//			label = "Plan";			
+//			key = "terjunplan";			
+//			width = 7;
+//			//height = 5;
+//			}
+//		: button {			
+//			label = "Cross";			
+//			key = "terjuncros";			
+//			width = 7;
+//			//height = 5;
+//			}
+//		: button {			
+//			label = "Long";			
+//			key = "terjunlong";			
+//			width = 7;
+//			//height = 5;
+//			}
+//			}
+//
+//	
+//	:row {
+//		:text { label = "Terjun Miring";width = 15;}
+//		: button {			
+//			label = "Plan";			
+//			key = "vlugterplan";			
+//			width = 7;
+//			//height = 5;
+//			}
+//		: button {			
+//			label = "Cross";			
+//			key = "vlugtercros";			
+//			width = 7;
+//			//height = 5;
+//			}
+//		: button {			
+//			label = "Long";			
+//			key = "vlugterlong";			
+//			width = 7;
+//			//height = 5;
+//			}
+//			}
+//
+//		:text { label = "";}
+//		ok_cancel;
+//
+//	}
 	

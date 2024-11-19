@@ -1,10 +1,8 @@
 
 
-(defun ambillokasi ()
-(setq lokasi (getpoint)))
 
 (defun salcros ()
-  (if (= lokasi nil) (setq lokasi (getvar "VIEWCTR")))
+ ;;; (if (= lokasi nil) (setq lokasi (getvar "VIEWCTR")))
   (if (= skala nil) (setq skala 50))
   (if (= sudut nil) (setq sudut 0))
   (if (= bsal nil) (setq bsal 1))
@@ -18,7 +16,7 @@
   (if (= elma nil) (setq elma 10))
   (if (= elta nil) (setq elta 9))
   (if (= tipsal nil) (setq tipsal 0))
-  (setq pt1 (getpoint "\nPilih titik pertama: "))
+  (setq pt1 (getpoint "\nlokasi as saluran: "))
   (setq pt2 (getpoint "\nPilih titik kedua: "))
   
 
