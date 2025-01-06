@@ -1,0 +1,25 @@
+Structure 03 - Vlugter Drop																																				
+Nomen Klatur	BA 1b																																			
+Z	2	m																																		
+B drop	0.4	m																																		
+El. tanah asli	1.00	m																																		
+Scale A	100																																			
+Scale B	50																																			
+No reg :	KIP3-1-39-10-01																																			
+																																				
+	NAMA	ELEV	DIMENSI SALURAN													TIPE	lebar	lebar	Terjunan																	
+	SAL	M.A	A	Q	b	h	w	k	mdalam	mluar	n	V	I	w	tebal	SAL	tgl kiri	tgl kanan	T	a	L1	L2	L3	L4	L5	t1	t2									
+		(m)	(ha)	(l/dt)	(m)	(m)	(m)							lining	lining	(1 s/d 21)	(m)	(m)	(m)	(m)	(m)	(m)	(m)	(m)	(m)	(m)	(m)									
+Inlet	Sek. BB 1 - BBA 1 ruas 1	1.1	163	500	1.00	0.71	0.40	35	1.0	1.0	1.20	0.281	0.000228	0.20	0.30	0	1.5	1.0																		
+Outlet	Sek. BB 1 - BBA 1 ruas 2	-0.9	163	500	1.00	0.65	0.30	35	1.0	1.0	1.20	0.281	0.000228	0.20	0.30	0	1.5	1.0																		
+																																				
+																																				
+	boleh tidak diisi																																			
+																																				
+																																				
+																																				
+																																				
+																																				
+																																				
+																																				
+																																				

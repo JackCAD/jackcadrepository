@@ -1,0 +1,151 @@
+
+//      Default AutoCAD NAMESPACE declaration:
+//
+***MENUGROUP=JackCad
+
+***POP1
+**jackcad2024
+
+ID_Irr    	[&jackcad2024]
+ID_Proyek       [&Project]^C^C(load (strcat "C:/jackcad2024/Proyek")) Proyek 
+ID_Daex      	[&Data Excel]^C^C(load (strcat "C:/jackcad2024/data")) data 
+               	[--]
+ID_Plan      	[->P&lan]
+ID_poligon           	[&Polygon]^C^C(load (strcat "C:/jackcad2024/topo/poligon")) poligon 
+ID_CIP           	[&Cross Plan]^C^C(load (strcat "c:/jackcad2024/topo/cross")) cross 
+ID_Situasi           	[&Situation]^C^C(load (strcat "c:/jackcad2024/topo/situasi")) (main) 
+ID_BM           	[&Bench Mark]^C^C(load (strcat "c:/jackcad2024/topo/bm")) bm 
+ID_xyz           	[&XYZ Data ]^C^C(load (strcat "c:/jackcad2024/topo/xyz")) xyz 
+ID_kopi           	[&Title Block]^C^C(load (strcat "c:/jackcad2024/topo/kopi")) kopi 
+ID_kopilay           	[La&yout Title Block]^C^C(load (strcat "c:/jackcad2024/topo/kopilay")) kopilay 
+ID_grid           	[&Grid]^C^C(load (strcat "c:/jackcad2024/topo/gridi")) gridi 
+ID_plb           	[P&LB]^C^C(load (strcat "c:/jackcad2024/topo/plb")) plb 
+ID_kontur           	[<-Cou&ntur]^C^C(load (strcat "c:/jackcad2024/topo/kontur")) kontur 
+               [--]
+ID_Saluran      [->&Canal]
+ID_trase         	[&Alignment]^C^C(load (strcat "c:/jackcad2024/long/trase")) trase 
+ID_ExLong         	[Existing &Long section]^C^C(setq exis 1 stepm 0)(load (strcat "c:/jackcad2024/long/irrpro")) irrpro 
+ID_DeLong         	[&Design Long section]^C^C(setq exis 0 stepm 0)(load (strcat "c:/jackcad2024/long/irrpro")) irrpro 
+ID_ExCross         	[Existing &Cross Section]^C^C(setq exis 1 stepm 0)(load (strcat "c:/jackcad2024/cross/crpe")) crpe 
+ID_DeCross         	[<-Design Cross &Section]^C^C(setq exis 0 stepm 0)(load (strcat "c:/jackcad2024/cross/crpe")) crpe 
+               [--]
+ID_DeStep      [->&Water Level Calculation (Step Methode)]
+ID_Steplong         	[&Long Section]^C^C(setq stepm 1 exis 0)(load (strcat "c:/jackcad2024/long/irrpro")) irrpro 
+ID_StepCross         	[<-&Cross Section]^C^C(setq stepm 1 exis 0)(load (strcat "c:/jackcad2024/cross/crpe")) crpe 
+               [--]
+ID_Bangunan      [->&Structure]
+ID_sadap           	[&Turn Out]^C^C(load (strcat "c:/jackcad2024/sadap/sadap")) sadap 
+ID_boks           	[&Box]^C^C(load (strcat "c:/jackcad2024/boks/boks")) boks 
+ID_Terjunm           	[&Vlugter Drop]^C^C(load (strcat "c:/jackcad2024/terjunm/terjunm")) terjunm 
+ID_Terjun           	[Vertical &Drop]^C^C(load (strcat "c:/jackcad2024/terjun/terjun")) terjun 
+ID_Terjunt           	[T&ertiary Drop]^C^C(load (strcat "c:/jackcad2024/terjunt/terjunt")) terjunt 
+ID_gorong           	[&Culvert]^C^C(load (strcat "c:/jackcad2024/gorong/gorong")) gorong 
+ID_gorong2           	[C&ross Drain]^C^C(load (strcat "c:/jackcad2024/crossdrain/crodr")) crodr 
+ID_spill           	[&Side Spillway]^C^C(load (strcat "c:/jackcad2024/spillway/spill")) spill 
+ID_talang           	[T&alang]^C^C(load (strcat "c:/jackcad2024/talang/talang")) talang 
+ID_gm           	[&Got Miring]^C^C(load (strcat "c:/jackcad2024/gotmiring/gm")) gm 
+ID_jemb           	[Br&idge]^C^C(load (strcat "c:/jackcad2024/jembatan/jemb")) jemb 
+ID_sipon           	[<-S&yphon]^C^C(load (strcat "c:/jackcad2024/sipon/sipon")) sipon 
+               [--]
+ID_standar         [S&tandard Drawing]^C^C(load (strcat "c:/jackcad2024/standar/standar")) standar 
+               [--]
+ID_Seting      [General S&etting]^C^C(load (strcat "c:/jackcad2024/topo/t-set")) t-set 
+ID_Lainnya      [->&Option]
+ID_Lacros        	[&Cross]^C^C(load (strcat "c:/jackcad2024/cross/o-cros")) o-cros 
+ID_Lalong        	[&Long]^C^C(load (strcat "c:/jackcad2024/long/o-long")) o-long 
+ID_Lasit        	[&Plan]^C^C(load (strcat "c:/jackcad2024/topo/o-sit")) o-sit 
+ID_etb        		[&Edit Title Block]^C^C(load (strcat "c:/jackcad2024/topo/etb")) etb 
+ID_drb        		[<-&Drawing Boundary]^C^C(load (strcat "c:/jackcad2024/topo/drb")) drb 
+               [--]
+ID_Cetak      		[P&rint]^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) cetak 
+               [--]
+ID_tolong      		[Jackcad &Help]^C^C(load (strcat "C:/jackcad2024/tolong")) tolong 
+
+             
+***TOOLBARS
+**TB_Topografi
+**Topografi
+ID_TbTopo   [_Toolbar("Topographic", _Top, _Show, 0, 2, 1)]
+ID_Proyek      [_Button("Project", "ICON.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/Proyek")) Proyek 
+ID_Daex        [_Button("Excell Data", "ICON8467.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/data")) data 
+ID_poligon     [_Button("Poligon", "ICON6500.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/Runall")) runall 
+ID_CIP         [_Button("Cross Plan", "ICON9169.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/topo/cross")) cross 
+ID_Situasi     [_Button("Situation", "ICON5724.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/topo/situasi")) (main) 
+ID_BM          [_Button("Bench Mark", "ICON1478.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/topo/bm")) bm 
+ID_xyz         [_Button("XYZ Data", "ICON9358.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/topo/xyz")) xyz 
+ID_kopi        [_Button("Title Block", "ICON6962.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/topo/kopi")) kopi 
+ID_kopilay     [_Button("Layout Title Block", "ICON4464.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/topo/kopilay")) kopilay 
+ID_grid        [_Button("Grid", "ICON5705.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/topo/gridi")) gridi
+ID_plb         [_Button("PLB", "ICON1942.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/topo/plb")) plb 
+ID_kontur      [_Button("Countour", "ICON1942.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/topo/kontur")) kontur 
+ID_ExLong      [_Button("Existing Long Section", "ICON6827.bmp", "ICON_16_DIMLIN")]^C^C(setq exis 1 stepm 0)(load (strcat "c:/jackcad2024/long/irrpro")) irrpro 
+ID_ExCross     [_Button("Existing Cross Section", "ICON0491.bmp", "ICON_16_DIMLIN")]^C^C(setq exis 1 stepm 0)(load (strcat "c:/jackcad2024/cross/crpe")) crpe 
+**TB_Design
+**Canal Design
+ID_TbDesign [_Toolbar("Canal Design", _Top, _Show, 0, 2, 1)]
+ID_trase       [_Button("Alignment", "ICON3281.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/long/trase")) trase 
+ID_DeLong      [_Button("Design Long Section", "ICON9961.bmp", "ICON_16_DIMLIN")]^C^C(setq exis 0 stepm 0)(load (strcat "c:/jackcad2024/long/irrpro")) irrpro 
+ID_DeCross     [_Button("Design Cross Section", "ICON2995.bmp", "ICON_16_DIMLIN")]^C^C(setq exis 0 stepm 0)(load (strcat "c:/jackcad2024/cross/crpe")) crpe 
+ID_Steplong    [_Button("Step Long Section", "ICON4827.bmp", "ICON_16_DIMLIN")]^C^C(setq stepm 1 exis 0)(load (strcat "c:/jackcad2024/long/irrpro")) irrpro 
+ID_StepCross   [_Button("Step Cross Section", "ICON5436.bmp", "ICON_16_DIMLIN")]^C^C(setq stepm 1 exis 0)(load (strcat "c:/jackcad2024/cross/crpe")) crpe 
+**TB_Struct
+**Structure
+ID_Tbstruct [_Toolbar("Structure", _Top, _Show, 0, 2, 1)]
+ID_sadap       [_Button("Turn Out", "ICON2391.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/sadap/sadap")) sadap 
+ID_boks        [_Button("Box", "ICON4604.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/boks/boks")) boks 
+ID_Terjun      [_Button("Vertical Drop", "ICON3902.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/terjun/terjun")) terjun 
+ID_Terjunm     [_Button("Vlugter Drop", "dropm.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/terjunm/terjunm")) terjunm 
+ID_Terjunt     [_Button("Tertiary Drop", "dropt.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/terjunt/terjunt")) terjunt 
+ID_gorong      [_Button("Culvert", "ICON0153.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/gorong/gorong")) gorong 
+ID_gorong2     [_Button("Cros Drain", "ICON0153.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/crossdrain/crodr")) crodr
+ID_spill       [_Button("Side Spillway", "ICON0153.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/spillway/spill")) spill 
+ID_talang      [_Button("Talang", "ICON0153.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/talang/talang")) talang 
+ID_gm          [_Button("Got Miring", "ICON0153.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/gotmiring/gm")) gm 
+ID_jemb        [_Button("Bridge", "ICON0153.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/jembatan/jemb")) jemb 
+ID_sipon       [_Button("Syphon", "ICON0153.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/sipon/sipon")) sipon 
+ID_standar     [_Button("Standard Drawing", "ICON2382.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/standar/standar")) standar 
+**TB_Sett
+**JackCad Setting
+ID_Tbset [_Toolbar("Setting", _Top, _Show, 0, 2, 1)]
+ID_Seting      [_Button("General Setting", "ICON7421.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/topo/t-set")) t-set 
+ID_Lacros      [_Button("Cross Option", "ICON8716.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/cross/o-cros")) o-cros 
+ID_Lalong      [_Button("Long Option", "ICON9718.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/long/o-long")) o-long 
+ID_Lasit       [_Button("Plan Option", "ICON9895.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/topo/o-sit")) o-sit
+ID_etb        [_Button("Edit Title Block", "ICON9895.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/topo/etb")) etb 
+ID_drb        	[_Button("Drawing Boundary", "ICON9895.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "c:/jackcad2024/topo/drb")) drb 
+ID_Cetak      	[_Button("JackCad Print", "ICON5447.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) cetak
+ID_tolong      	[Jackcad Help]^C^C(load (strcat "C:/jackcad2024/tolong")) tolong
+**TB_Ols
+**Other Lisp
+ID_Tblsp [_Toolbar("Other Lisp", _Top, _Show, 0, 2, 1)]
+ID_artan       [_Button("Earth", "ICON5447.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) tn 
+ID_gel       [_Button("Change Elevation", "ICON1726.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) gel
+ID_rt       [_Button("Text Rotation", "ICON1726.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) rt
+ID_azi       [_Button("Azimuth", "ICON1726.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) azi
+ID_mr       [_Button("Earth Hatch", "ICON1726.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) mr
+ID_canal       [_Button("Canal", "ICON1726.bmp", "ICON_16_DIMLIN")]^C^Ccanal
+ID_spon       [_Button("Sponing", "ICON1726.bmp", "ICON_16_DIMLIN")]^C^Cspon
+ID_anak        [_Button("Sungai Kecil", "ICON8145.bmp", "ICON_16_DIMLIN")]^C^C(load "c:/jackcad2024/topo/anak") anak 
+ID_skatul        [_Button("Structure scale", "ICON8145.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) skatul 
+**TB_huruf
+**JC Font
+ID_Tbft [_Toolbar("Font", _Top, _Show, 0, 2, 1)]
+ID_L40       [_Button("L40", "ICON1726.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) L40 
+ID_L50       [_Button("L50", "ICON1726.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) L50 
+ID_L60       [_Button("L60", "ICON1726.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) L60 
+ID_L80       [_Button("L80", "ICON1726.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) L80 
+ID_L100       [_Button("L100", "ICON1726.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) L100 
+ID_L120       [_Button("L120", "ICON1726.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) L120 
+ID_L140       [_Button("L140", "ICON1726.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) L140 
+ID_L175       [_Button("L175", "ICON1726.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) L175 
+ID_L200       [_Button("L200", "ICON1726.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) L200 
+ID_L240       [_Button("L240", "ICON1726.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) L240 
+ID_L290       [_Button("L290", "ICON1726.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) L290 
+ID_L350       [_Button("L350", "ICON1726.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) L350 
+ID_L425       [_Button("L425", "ICON1726.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) L425 
+ID_L500       [_Button("L500", "ICON1726.bmp", "ICON_16_DIMLIN")]^C^C(load (strcat "C:/jackcad2024/lsp-lain/lain")) L500 
+               [--]
+
+//
+//      End of AutoCAD menu file - C:\Program Files\AutoCAD 2002\Support\irigasi.mns
+//

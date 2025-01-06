@@ -1,0 +1,17 @@
+Structure 05 - Tertiary Drop																								
+Nomen Klatur	BA 1b																							
+Z	0.75	m																						
+B drop	0.3	m																						
+El. tanah asli	1.00	m																						
+Scale A	50																							
+Scale B	25																							
+																								
+																								
+	NAMA	ELEV	DIMENSI SALURAN													TIPE	lebar	lebar	Terjunan					
+	SAL	M.A	A	Q	b	h	w	k	mdalam	mluar	n	V	I	w	tebal	SAL	tgl kiri	tgl kanan	a	L1	L2	t1	t2	
+		(m)	(ha)	(l/dt)	(m)	(m)	(m)							lining	lining	(1 s/d 21)	(m)	(m)	(m)	(m)	(m)	(m)	(m)	
+Inlet	Sek. BB 1 - BBA 1 ruas 1	1.1	30	45	0.40	0.30	0.20	30	1.0	1.0	1.33	0.281	0.000228	0.20	0.30	0	1.0	0.5						
+Outlet	Sek. BB 1 - BBA 1 ruas 2	0.35	30	45	0.40	0.30	0.20	30	1.0	1.0	1.33	0.281	0.000228	0.20	0.30	0	1.0	0.5						
+																								
+																								
+	boleh tidak diisi																							
